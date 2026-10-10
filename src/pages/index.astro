@@ -1,16 +1,93 @@
 ---
 ---
 
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="theme-color" content="#ffffff" />
+		<meta name="description" content="Personal website of Arya Trivedi. Something exciting is coming soon." />
+		<link rel="icon" type="image/jpeg" href="/338492330.jpg" />
+		<link rel="shortcut icon" href="/338492330.jpg" />
+		<title>Arya Trivedi</title>
+		<style>
+			* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				min-height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				background-color: #ffffff;
+				color: #111111;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+				line-height: 1.6;
+				padding: 2rem 1.25rem;
+			}
+
+			main {
+				max-width: 440px;
+				width: 100%;
+				text-align: center;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 1.25rem;
+			}
+
+			.photo {
+				width: 130px;
+				height: 130px;
+				border-radius: 50%;
+				object-fit: cover;
+				border: 1px solid #e5e5e5;
+			}
+
+			h1 {
+				font-size: 1.75rem;
+				font-weight: 600;
+				letter-spacing: -0.02em;
+				color: #111111;
+			}
+
+			.intro {
+				font-size: 1.05rem;
+				color: #555555;
+			}
+
+			.notice {
+				display: inline-block;
+				padding: 0.35rem 0.9rem;
+				font-size: 0.875rem;
+				border-radius: 9999px;
+				background-color: #f5f5f5;
+				color: #666666;
+				border: 1px solid #e5e5e5;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<main>
+			<img
+				src="/338492330.jpg"
+				alt="Arya Trivedi"
+				class="photo"
+				width="130"
+				height="130"
+			/>
+			<h1>Hello, I'm Arya Trivedi.</h1>
+			<p class="intro">
+				I'm a writer, educator, and journalism student.
+			</p>
+			<p class="notice">
+				Something exciting is coming here soon.
+			</p>
+		</main>
 	</body>
 </html>
+
